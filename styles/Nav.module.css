@@ -1,0 +1,14 @@
+.nav__desktop {
+ display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+  margin-top: -15px;
+  color: white;
+}

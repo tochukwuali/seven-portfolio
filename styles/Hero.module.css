@@ -1,0 +1,54 @@
+.hr {
+  padding: 2rem 0;
+}
+
+.hr__header {
+  color: #fff;
+}
+
+.hr__header h2 {
+    font-size: 2.5rem;
+    margin-top: -0.6rem;
+    color: #3b78b6;
+}
+
+.hr__header h3 {
+   font-size: 1.8rem;
+   margin-top: -1.6rem;
+}
+
+.hr__header h4 {
+  font-size: 1rem;
+}
+
+.hr__body {
+  width: 100%;
+  margin-top: -0.6rem;
+}
+
+.hr__body p{
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.hr__open_btn {
+  padding: 0.8rem 1rem;
+  background: transparent;
+  border: 1px solid #3b78b6;
+  font-family: 'Inter' sans-serif;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hr__about_btn {
+  padding: 0.8rem;
+  background: #3b78b6;
+  border: 1px solid #3b78b6;
+  border-radius: 2px;
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Inter' sans-serif;
+  margin-top: 1rem;
+  cursor: pointer;
+}
