@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-import Image from "next/image";
+import Project from "../components/Project";
 
 export default function Home() {
   return (
@@ -9,8 +9,8 @@ export default function Home() {
         <title>Home</title>
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
       </Head>
-
       <Hero />
+      <Project />
     </div>
   );
 }
