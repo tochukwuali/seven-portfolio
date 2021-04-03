@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/mobileIcon.module.css";
+import styles from "../styles/MobileIcon.module.css";
 
 const MobileIcon = () => {
   let attachedClasses = [styles.icon];
