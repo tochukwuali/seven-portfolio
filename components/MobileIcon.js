@@ -1,14 +1,14 @@
-import React from "react";
+import { useState } from "react";
 import styles from "../styles/MobileIcon.module.css";
 
-const MobileIcon = () => {
+const MobileIcon = ({ toggle, openNav }) => {
   let attachedClasses = [styles.icon];
-//   if (open) {
-//     attachedClasses = [styles.icon, styles.open];
-//   }
+  if (toggle) {
+    attachedClasses = [styles.icon, styles.open];
+  }
 
   return (
-    <div className={styles.MobileIcon} >
+    <div className={styles.MobileIcon} onClick={openNav}>
       <div className={attachedClasses.join(" ")}>
         <span></span>
         <span></span>

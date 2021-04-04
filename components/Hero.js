@@ -1,4 +1,5 @@
 import styles from "../styles/Hero.module.css";
+import { FiChevronRight } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -17,9 +18,13 @@ const Hero = () => {
             </p>
             <div className={styles.hr__btn_group}>
               <button className={styles.hr__open_btn}>
-                Currently Open to Opportunities
+                See My Projects{" "}
+                <span>
+                  {" "}
+                  <FiChevronRight />{" "}
+                </span>
               </button>
-              <button className={styles.hr__about_btn}>About Me</button>
+              {/* <button className={styles.hr__about_btn}>About Me</button> */}
             </div>
           </div>
         </div>
