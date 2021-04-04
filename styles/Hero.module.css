@@ -17,7 +17,7 @@
 }
 
 .hr__header h3 {
-   font-size: 1.8rem;
+   font-size: 1.45rem;
    margin-top: -1.6rem;
 }
 
@@ -41,9 +41,9 @@
 
 }
 .hr__open_btn {
-  padding: 0.8rem 1rem;
-  background: #5cc5ef;
-  border: 1px solid #5cc5ef;
+  padding: 0.9rem 1rem;
+  background: #5468dd;
+  border: 1px solid #5468dd;
   font-family: 'Inter' sans-serif;
   color: #fff;
   border-radius: 8px 8px 8px 0px;
