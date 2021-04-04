@@ -10,7 +10,7 @@ const Nav = ({ toggle, openNav }) => {
   }
   return (
     <div>
-      <nav className={styles.nav}>
+      <nav className={styles.nav__wr}>
         <div className={styles.logo}>
           <h3>TC</h3>
         </div>

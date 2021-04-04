@@ -1,5 +1,6 @@
 import styles from "../styles/Hero.module.css";
 import { FiChevronRight } from "react-icons/fi";
+import { IconContext } from "react-icons";
 
 const Hero = () => {
   return (
@@ -18,11 +19,15 @@ const Hero = () => {
             </p>
             <div className={styles.hr__btn_group}>
               <button className={styles.hr__open_btn}>
-                See My Projects{" "}
-                <span>
-                  {" "}
-                  <FiChevronRight />{" "}
-                </span>
+                See My Projects
+                <IconContext.Provider
+                  value={{
+                    size: "1.3em",
+                    style: { verticalAlign: "middle", marginLeft: "9px" },
+                  }}
+                >
+                  <FiChevronRight />
+                </IconContext.Provider>
               </button>
               {/* <button className={styles.hr__about_btn}>About Me</button> */}
             </div>

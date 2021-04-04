@@ -2,7 +2,7 @@
  display: none;
 }
 
-.nav {
+.nav__wr {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -16,7 +16,7 @@
 .Nav.open {
   display: flex;
   flex-direction: column;
-  color: rgb(43, 43, 65);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   background-color: black;
   max-height: 100%;

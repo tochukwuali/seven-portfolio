@@ -13,7 +13,7 @@
 .hr__header h2 {
     font-size: 2.5rem;
     margin-top: -0.6rem;
-    color: #3b78b6;
+    color: #344d90;
 }
 
 .hr__header h3 {
@@ -42,24 +42,20 @@
 }
 .hr__open_btn {
   padding: 0.8rem 1rem;
-  background: #8c3de6;
-  border: 1px solid #8c3de6;
+  background: #5cc5ef;
+  border: 1px solid #5cc5ef;
   font-family: 'Inter' sans-serif;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 8px 8px 8px 0px;
   font-size: 1rem;
   width: 100%;
   cursor: pointer;
 }
 
-.hr__about_btn {
-  padding: 0.8rem;
-  background: #3b78b6;
-  border: 1px solid #3b78b6;
-  border-radius: 2px;
-  font-size: 1rem;
-  color: #fff;
-  font-family: 'Inter' sans-serif;
-  margin-top: 1rem;
-  cursor: pointer;
+.hr__open_btn .chevron svg{
+  position: relative;
+  top: 5px;
+  left: 7px;
+  font-size: 1.3rem;
 }
+

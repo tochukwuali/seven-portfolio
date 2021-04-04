@@ -20,6 +20,8 @@ const Layout = ({ children }) => {
           {`
             .container {
               display: ${toggle === true ? "none" : "block"};
+              min-height: 100vh;
+              padding: 0 0.8rem;
             }
           `}
         </style>
