@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
     AOS.init({
       offset: 200,
       duration: 2500,
+      once: true,
     });
   }, []);
   return (

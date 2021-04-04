@@ -14,8 +14,8 @@ const Hero = () => {
           </div>
           <div className={styles.hr__body}>
             <p>
-              I am an outstanding frontend Developer. I build highly responsive
-              websites while paying attention to accessibility.
+              I build highly responsive websites while paying attention to user
+              accessibility.
             </p>
             <div className={styles.hr__btn_group}>
               <button className={styles.hr__open_btn}>
