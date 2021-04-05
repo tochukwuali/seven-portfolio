@@ -16,15 +16,17 @@
 .Nav.open {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  background-color: black;
+  background-color: #08131a;
   max-height: 100%;
   height: 100vh;
   padding: 0px 0px;
   transition-property: all;
   transition-duration: 2s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: cubic-bezier(1, 1, 0.5, 1);
   position: absolute;
   width: 100%;
   top: 0;
@@ -35,10 +37,23 @@
   color: grey;
 }
 
-.Nav.open a+a {
-  padding-top: 10px;
-}
-
 .Nav {
   display: none;
+}
+
+.nav__list {
+  list-style: none;
+ padding: 0;
+    margin-top: -2rem;
+}
+
+.side__nav_logo {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+
+}
+
+.nav__list li {
+  margin-top: 1.5rem;
 }

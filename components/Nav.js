@@ -18,32 +18,29 @@ const Nav = ({ toggle, openNav }) => {
         <MobileIcon openNav={openNav} toggle={toggle} />
       </nav>
       <div className={attachedClasses.join(" ")}>
-        <ul>
-          <div className={styles.mobileList}>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-          </div>
-          <div className={styles.mobileList}>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-          </div>
-          <div className={styles.mobileList}>
-            <li>
-              <Link href="/lcross">LordCross Consults</Link>
-            </li>
-          </div>
-          <div className={styles.mobileList}>
-            <li>
-              <Link href="/publications">Publications</Link>
-            </li>
-          </div>
-          <div className={styles.mobileList}>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </div>
+        <div className={styles.side__nav_logo}>
+          <h2> TC </h2>
+        </div>
+        <ul className={styles.nav__list}>
+          <li data-aos={"fade-up"} onClick={openNav}>
+            <Link href="/">Home</Link>
+          </li>
+
+          <li data-aos={"fade-up"} onClick={openNav}>
+            <Link href="/about">About</Link>
+          </li>
+
+          <li data-aos={"fade-up"}>
+            <Link href="/projects">Projects</Link>
+          </li>
+
+          <li data-aos={"fade-up"}>
+            <Link href="/skills">Skills</Link>
+          </li>
+
+          <li data-aos={"fade-up"}>
+            <Link href="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
     </div>
