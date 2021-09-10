@@ -1,7 +1,7 @@
-import { useState } from "react";
 import MobileIcon from "./MobileIcon";
 import styles from "../styles/Nav.module.css";
 import Link from "next/link";
+import { GithubIcon, TwitterIcon, LinkedinIcon } from "./Icon";
 
 const Nav = ({ toggle, openNav }) => {
   let attachedClasses = [styles.Nav];
@@ -12,14 +12,19 @@ const Nav = ({ toggle, openNav }) => {
     <div>
       <nav className={styles.nav__wr}>
         <div className={styles.logo}>
-          <h3>TC</h3>
+          <h3>
+            <Link href="/">Toks</Link>
+          </h3>
         </div>
         <div className={styles.nav__desktop}></div>
         <MobileIcon openNav={openNav} toggle={toggle} />
       </nav>
       <div className={attachedClasses.join(" ")}>
         <div className={styles.side__nav_logo}>
-          <h2> TC </h2>
+          <h2>
+            {" "}
+            <Link href="/">Toks</Link>
+          </h2>
         </div>
         <ul className={styles.nav__list}>
           <li data-aos={"fade-up"} onClick={openNav}>
@@ -42,6 +47,18 @@ const Nav = ({ toggle, openNav }) => {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
+        <div className={styles.side__nav_social_icons}>
+          <a href="https://github.com/tochukwuali">
+            <GithubIcon />
+          </a>
+          <a href="https://twitter.com/tochukwuali3">
+            <TwitterIcon />
+          </a>
+
+          <a href="https://linkedin.com/in/tochukwuali">
+            <LinkedinIcon />
+          </a>
+        </div>
       </div>
     </div>
   );

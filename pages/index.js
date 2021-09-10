@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
       </Head>
       <Hero />
-      <Project />
+      {/* <Project /> */}
     </div>
   );
 }

@@ -1,9 +1,5 @@
-.hr__wr {
-  height: 100vh;
-}
-
 .hr {
-  padding: 2rem 0;
+  margin-top: 7rem;
 }
 
 .hr__header {
@@ -11,15 +7,15 @@
 }
 
 .hr__header h2 {
-    font-size: 2.5rem;
-    margin-top: -0.6rem;
-    color: #344d90;
-    padding-right: 3rem;
+  font-size: 2.5rem;
+  margin-top: -0.6rem;
+  color: #5468dd;
+  /* padding-right: 2rem; */
 }
 
 .hr__header h3 {
-   font-size: 1.3rem;
-   margin-top: -1.6rem;
+  font-size: 1.3rem;
+  margin-top: -1.6rem;
 }
 
 .hr__header h4 {
@@ -31,8 +27,8 @@
   margin-top: -0.6rem;
 }
 
-.hr__body p{
-  font-size: 1.0rem;
+.hr__body p {
+  font-size: 0.95rem;
   line-height: 1.8;
   color: #cdcfcf;
   margin-top: 1.5rem;
@@ -40,26 +36,30 @@
 
 .hr__btn_group {
   width: 100%;
-  margin-top: 3rem;
-
+  margin-top: 2rem;
 }
 .hr__open_btn {
-  padding: 0.9rem 1rem;
-  background: transparent;
+  padding: 0.9rem;
+  background: #5468dd;
   border: 1px solid #5468dd;
-  font-family: 'Inter' sans-serif;
-  color: #fff;
+  font-family: "Inter" sans-serif;
   border-radius: 8px 8px 8px 0px;
   font-size: 1rem;
-  width: 100%;
+  width: 50%;
   cursor: pointer;
-  color: #5468dd;
+  color: #fff;
 }
 
-.hr__open_btn .chevron svg{
+.hr__social_icons {
+  display: flex;
+  gap: 2.5rem;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.hr__open_btn .chevron svg {
   position: relative;
   top: 5px;
   left: 7px;
   font-size: 1.3rem;
 }
-

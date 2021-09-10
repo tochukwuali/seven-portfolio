@@ -1,6 +1,5 @@
 import styles from "../styles/Hero.module.css";
-import { FiChevronRight } from "react-icons/fi";
-import { IconContext } from "react-icons";
+import { GithubIcon, TwitterIcon, LinkedinIcon } from "./Icon";
 
 const Hero = () => {
   return (
@@ -14,22 +13,24 @@ const Hero = () => {
           </div>
           <div className={styles.hr__body}>
             <p>
-              I build highly responsive websites while paying attention to user
-              accessibility.
+              I'm all about creating amazing experiences on the front-end of the
+              web. I bring all sorts of design ideas to life with scalable and
+              clean code.
             </p>
             <div className={styles.hr__btn_group}>
-              <button className={styles.hr__open_btn}>
-                See My Projects
-                <IconContext.Provider
-                  value={{
-                    size: "1.3em",
-                    style: { verticalAlign: "middle", marginLeft: "9px" },
-                  }}
-                >
-                  <FiChevronRight />
-                </IconContext.Provider>
-              </button>
-              {/* <button className={styles.hr__about_btn}>About Me</button> */}
+              <button className={styles.hr__open_btn}>Explore</button>
+            </div>
+            <div className={styles.hr__social_icons}>
+              <a href="https://github.com/tochukwuali">
+                <GithubIcon />
+              </a>
+              <a href="https://twitter.com/tochukwuali3">
+                <TwitterIcon />
+              </a>
+
+              <a href="https://linkedin.com/in/tochukwuali">
+                <LinkedinIcon />
+              </a>
             </div>
           </div>
         </div>
