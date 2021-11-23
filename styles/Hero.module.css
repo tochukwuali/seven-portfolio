@@ -1,65 +1,43 @@
+.hr__wr {
+  background-color: #ebf8ff;
+}
+
 .hr {
-  margin-top: 7rem;
+  padding: 7rem 10rem;
 }
 
-.hr__header {
-  color: #fff;
+.hr__content {
+  display: flex;
+  gap: 4rem;
 }
 
-.hr__header h2 {
-  font-size: 2.5rem;
-  margin-top: -0.6rem;
-  color: #5468dd;
-  /* padding-right: 2rem; */
+.hr__text {
+  width: 50%;
 }
 
-.hr__header h3 {
-  font-size: 1.3rem;
-  margin-top: -1.6rem;
+.hr__text h1 {
+  color: #2a4365;
+  font-size: 42px;
 }
 
-.hr__header h4 {
-  font-size: 1rem;
+.hr__img {
+  width: 50%;
+  margin-top: -2rem;
 }
 
-.hr__body {
-  width: 100%;
-  margin-top: -0.6rem;
+.hr__img img {
+  width: 100%;  
 }
 
-.hr__body p {
-  font-size: 0.95rem;
-  line-height: 1.8;
-  color: #cdcfcf;
-  margin-top: 1.5rem;
-}
-
-.hr__btn_group {
-  width: 100%;
-  margin-top: 2rem;
-}
 .hr__open_btn {
-  padding: 0.9rem;
-  background: #5468dd;
+  padding: 0.5rem 2rem;
+  background: #2a4365;
   border: 1px solid #5468dd;
   font-family: "Inter" sans-serif;
-  border-radius: 8px 8px 8px 0px;
+  border-radius: 8px;
   font-size: 1rem;
-  width: 50%;
   cursor: pointer;
   color: #fff;
-}
-
-.hr__social_icons {
-  display: flex;
-  gap: 2.5rem;
-  width: 100%;
-  margin-top: 2.5rem;
-}
-
-.hr__open_btn .chevron svg {
-  position: relative;
-  top: 5px;
-  left: 7px;
-  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 1rem;
 }

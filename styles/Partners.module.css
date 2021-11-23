@@ -1,0 +1,17 @@
+.pt {
+    padding: 3rem 10rem;
+}
+
+.pt__content {
+    display: flex;
+    gap: 1rem;
+}
+
+.pt__logo {
+    width: 25%;
+}
+
+.pt__logo img {
+    width: 50%;
+    filter: grayscale(100%);
+}

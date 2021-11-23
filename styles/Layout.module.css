@@ -1,17 +1,12 @@
 .wrapperr {
-  background-color: #08131a;
+
   /* background-image: url("/bg5.svg"); */
   background-size: cover;
   position: relative;
   height: 100%;
 }
 
-.wrapper {
-  padding: 1rem 0.2rem;
-}
-
 .main {
-  margin-top: 3rem;
   flex: 1;
 }
 

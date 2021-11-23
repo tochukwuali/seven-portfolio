@@ -13,10 +13,17 @@ const Nav = ({ toggle, openNav }) => {
       <nav className={styles.nav__wr}>
         <div className={styles.logo}>
           <h3>
-            <Link href="/">Toks</Link>
+            <Link href="/">Seven.</Link>
           </h3>
         </div>
-        <div className={styles.nav__desktop}></div>
+        <div className={styles.nav__desktop}>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
         <MobileIcon openNav={openNav} toggle={toggle} />
       </nav>
       <div className={attachedClasses.join(" ")}>

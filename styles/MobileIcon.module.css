@@ -73,3 +73,9 @@
   width: 0%;
   left: 50%;
 }
+
+@media (min-width: 1024px) {
+  .MobileIcon {
+    display: none;
+  }
+}

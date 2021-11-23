@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
           {`
             .container {
               display: ${toggle === true ? "none" : "block"};
-              padding: 0 0.8rem;
+              
             }
           `}
         </style>
