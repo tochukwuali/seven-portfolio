@@ -1,0 +1,32 @@
+.em__wr {
+
+  }
+  
+  .em {
+    padding: 7rem 10rem;
+  }
+  
+  .em__content {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .em__text {
+    width: 50%;
+  }
+  
+  .em__text h1 {
+    color: #2a4365;
+    font-size: 42px;
+  }
+  
+  .em__img {
+    width: 50%;
+    margin-top: -2rem;
+  }
+  
+  .em__img img {
+    width: 100%;  
+  }
+  
+  
